@@ -1,0 +1,35 @@
+.sortingSection {
+    width: 87%;
+    height: auto;
+    display: flex;
+    margin: -75px auto 0;
+    justify-content: space-between;
+
+    .btn-sortBy {
+        background-color: transparent;
+        border: 1px solid #D9D9D9;
+    }
+
+    button {
+        width: auto;
+        background-color: #EFEFEF;
+        border-radius: 30px;
+        align-items: center;
+        border: none;
+        padding: 10px 25px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 15px;
+        color: #454444;
+
+    }
+}
+
+
+
+.sorting {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}

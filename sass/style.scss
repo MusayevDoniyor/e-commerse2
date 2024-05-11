@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.contactDiv {
+    background-color: #454444;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactDiv a {
+    color: #fff;
+}
+
+.phoneNumber {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+i {
+    width: auto;
+    height: auto;
+}
+
+.discount {
+    line-height: 21.78px;
+    font-size: 18px;
+}
+
+.discount b {
+    border-left: 2px solid #fff;
+    padding-left: 10px;
+    margin-left: 7px;
+}
+
+
+@import './header';
+@import './heroSection';
+@import './sortingSection';
+@import './productsSection';
